@@ -251,7 +251,7 @@ class Admin extends User{
     super(name,lastName,permission,age,email);
   }
 }*/
-class Figure {
+/*class Figure {
   constructor(a, h) {
     this.a = a;
     this.h = h;
@@ -315,8 +315,51 @@ function Sqare(a,arria){
 arria=(a*a);
 }
 
+*/
 
+/*for(let i=25;i<=0;i--){
+  console.log(i);
+}
+for (let i=10;i<=50;i++){
+if((i%5)===0){
+  console.log(i)
+}
+}
 
+for(let i=0;i<=100;i++){
+  console.log(i+=i);
+}
 
+while(true){
+a=prompt("2+2*2");
+if(a===6){
+  break;
+}
+}
+*/
 
+const arr = [4, -2, 5, 19, -130, 0, 10];
 
+for (let i = 0; (i = arr.length); i++) {
+  let min = 0;
+  let max = 0;
+  if (min < arr[i]) {
+    min = arr[i];
+  }
+  if (max > arr[i]) {
+    max = arr[i];
+  }
+}
+const arr1 = [12, 15, 20, 25, 59, 79];
+let ser = 0;
+let ii = 0;
+for (let i = 0; i <= arr1.length; i++) {
+  ser += arr1[i];
+  ii++;
+}
+ser / ii;
+
+let arr2 = [];
+for (let i = 0; i <= 10; i++) {
+  arr2[i] = 1 + Math.round(Math.random() * 100);
+}
